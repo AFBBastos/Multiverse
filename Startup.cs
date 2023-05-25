@@ -32,7 +32,7 @@ namespace Multiverse
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Master!");
+                    await context.Response.WriteAsync("Hello World A!");
                 });
             });
         }
